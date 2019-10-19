@@ -1,2 +1,0 @@
-# twitchUserData
-Created with CodeSandbox
