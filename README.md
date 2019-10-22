@@ -40,7 +40,7 @@
 uses the new twitch api to get chatters from tmi.twitch.tv then convert username to login ID and 100 per request, then gets the first 100 Per username in the list of lists. 
 
 it uses rate limiting from the twitch header. 
-
+![Example User Data](https://i.imgur.com/MxLIXPV.png)
 
 ### Built With
 
