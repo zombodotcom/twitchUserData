@@ -11,6 +11,7 @@
   <p align="center">
     Get Chatters Followers List
 	Multithreaded get requests for new Twitch API
+	[New Twitch API](https://dev.twitch.tv/docs/api/)
   </p>
 </p>
 
