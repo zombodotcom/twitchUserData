@@ -45,6 +45,9 @@ uses the new twitch api to get chatters from tmi.twitch.tv then convert username
 it uses rate limiting from the twitch header. 
 ![Example User Data](https://i.imgur.com/MxLIXPV.png)
 
+using plot.ly for the json file generated
+![Shroud Example Plot.ly](https://i.imgur.com/ZoH0J0f.png)
+using plot.ly for the json file generated
 ### Built With
 
 * [Python 3.7]()
@@ -105,6 +108,7 @@ pip3 install whatever the package you need
 [How to Get Bearer Token](https://dev.twitch.tv/docs/api/)
 [Twitch access-tokens ](https://dev.twitch.tv/docs/authentication#refreshing-access-tokens)
 ![How to get a token](https://i.imgur.com/ZaugPkW.png)
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
