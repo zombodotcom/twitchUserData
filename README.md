@@ -106,7 +106,35 @@ pip3 install whatever the package you need
 
 run the program and it puts out 2 jsons, the user id's and the total follows. 
 
+You can slice in both threaded areas. Just slice like so.
+![Slicing](https://i.imgur.com/QjVgBOW.png)
 
+doing this only does 100 chatters instead of all of them from username to userid
+
+```
+with PoolExecutor(max_workers=8) as executor:
+
+    # _ is the body of each page that I'm ignoring right now
+    for _ in executor.map(douserids, composite_id_list[:1]):
+            # print(composite_viewer_list)
+        pass
+```
+
+here is for the individual followers threaded code. should get only 100 users with [:1]
+currently goes through all chatters because no slicing the list
+
+```
+# create a thread pool of 4 threads
+# gets the follows multithreaded, change 8 to your max threads
+with PoolExecutor(max_workers=8) as executor:
+    # distribute the 1000 URLs among 4 threads in the pool
+    # _ is the body of each page that I'm ignoring right now
+    for x in composite_viewer_list[:1]:
+        print(x)
+        for _ in executor.map(dotogether, x):
+            # print(composite_viewer_list)
+            pass
+```
 
 
 <!-- CONTRIBUTING -->
