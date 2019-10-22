@@ -14,12 +14,12 @@
 	
   </p>
 </p>
-[New Twitch API](https://dev.twitch.tv/docs/api/)
+
 
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-
+[New Twitch API](https://dev.twitch.tv/docs/api/)
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
@@ -165,7 +165,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-
+[New Twitch API](https://dev.twitch.tv/docs/api/)
 
 
 
