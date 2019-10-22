@@ -94,7 +94,7 @@ import config
  
 1. Clone the repo
 ```sh
-git clone https:://github.com/github_username/repo.git
+git clone https://github.com/zombodotcom/twitchUserData.git
 ```
 2. Install Python packages
 ```
