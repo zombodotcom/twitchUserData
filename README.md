@@ -20,6 +20,8 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 [New Twitch API](https://dev.twitch.tv/docs/api/)
+
+![How to get a token](https://i.imgur.com/ZaugPkW.png)
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
@@ -100,7 +102,8 @@ pip3 install whatever the package you need
 ```
 2. Add Authorization and ClientID to config.py
 
-
+[How to Get Bearer Token](https://dev.twitch.tv/docs/api/)
+[Twitch access-tokens ](https://dev.twitch.tv/docs/authentication#refreshing-access-tokens)
 
 <!-- USAGE EXAMPLES -->
 ## Usage
