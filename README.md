@@ -44,7 +44,7 @@ it uses rate limiting from the twitch header.
 
 ### Built With
 
-* [Python]()
+* [Python 3.7]()
 
 
 
